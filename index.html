@@ -1,0 +1,928 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="CCGG — Web2와 Web3의 전환점에서 새로운 가능성을 실험하고 확장하는 커뮤니티"
+    />
+    <title>CCGG — Web2.5 Community Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 바로가기</a>
+
+    <header class="site-header" id="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="CCGG 홈">
+          <img
+            class="brand-logo"
+            src="assets/ccgg-logo-transparent.png"
+            width="34"
+            height="34"
+            alt=""
+            aria-hidden="true"
+          />
+          <span>CCGG</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="메뉴 열기"
+        >
+          <span></span><span></span>
+        </button>
+
+        <nav class="primary-nav" id="primary-navigation" aria-label="주요 메뉴">
+          <a href="#about">About</a>
+          <a href="#activities">Activities</a>
+          <a href="#programs">Programs</a>
+          <a href="#partners">Partners</a>
+          <a href="#history">History</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section" id="home">
+        <div class="hero-media" aria-hidden="true">
+          <video
+            class="hero-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            poster="./assets/hero/ccgg-hero-main-poster.webp"
+            data-mobile-src="./assets/hero/ccgg-hero-main-mobile-540p.mp4"
+            tabindex="-1"
+          >
+            <source
+              src="./assets/hero/ccgg-hero-main-web-720p.webm"
+              type="video/webm"
+            />
+            <source
+              src="./assets/hero/ccgg-hero-main-web-720p.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+
+        <div class="container hero-content">
+          <div class="hero-copy reveal">
+            <p class="eyebrow"><span></span> Web2.5 Community Hub</p>
+            <div class="hero-brand">
+              <strong>CCGG</strong>
+              <span>Crypto Contents Gamer Guild</span>
+            </div>
+            <h1 class="hero-what-we-do">
+              <span class="hero-what-title">What We <em>Do</em></span>
+              <span class="hero-what-line">
+                <strong>Metaverse와 Web3</strong>를 탐험하는 개척자
+              </span>
+              <span class="hero-what-line">
+                <strong>Play-to-Earn</strong> 게임을 즐기는 게이머
+              </span>
+              <span class="hero-what-line">
+                <strong>NFT와 디지털 자산</strong>을 연구하는 컬렉터
+              </span>
+              <span class="hero-what-line">
+                <strong>Crypto 시장</strong>을 분석하고 콘텐츠를 만드는 크리에이터
+              </span>
+            </h1>
+            <p class="hero-description">
+              CCGG는 Web2와 Web3의 전환점 속에서 다양한 생태계를 탐험하며,<br />
+              새로운 가능성을 함께 실험하고 확장하는 커뮤니티입니다.
+            </p>
+            <ul class="hero-tags" aria-label="CCGG 주요 해시태그">
+              <li>#Crypto</li>
+              <li>#GameFi</li>
+              <li>#CDeFi</li>
+              <li>#P2E</li>
+              <li>#NFT</li>
+            </ul>
+            <div class="button-row">
+              <a class="button button-primary" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="signal-strip" aria-label="CCGG 커뮤니티 슬로건">
+        <div class="signal-track">
+          <div class="signal-group">
+            <span>PLAY TOGETHER</span><i>✦</i>
+            <span>EARN TOGETHER</span><i>✦</i>
+            <span>LEARN TOGETHER</span><i>✦</i>
+            <span>BUILD TOGETHER</span><i>✦</i>
+            <span>GROW TOGETHER</span><i>✦</i>
+          </div>
+          <div class="signal-group" aria-hidden="true">
+            <span>PLAY TOGETHER</span><i>✦</i>
+            <span>EARN TOGETHER</span><i>✦</i>
+            <span>LEARN TOGETHER</span><i>✦</i>
+            <span>BUILD TOGETHER</span><i>✦</i>
+            <span>GROW TOGETHER</span><i>✦</i>
+          </div>
+          <div class="signal-group" aria-hidden="true">
+            <span>PLAY TOGETHER</span><i>✦</i>
+            <span>EARN TOGETHER</span><i>✦</i>
+            <span>LEARN TOGETHER</span><i>✦</i>
+            <span>BUILD TOGETHER</span><i>✦</i>
+            <span>GROW TOGETHER</span><i>✦</i>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="container">
+          <div class="section-heading section-heading-single reveal">
+            <div>
+              <p class="eyebrow"><span></span> About CCGG</p>
+              <h2 class="aligned-title about-title">
+                <span class="aligned-title-row">
+                  <span class="aligned-title-label">FROM</span>
+                  <span>Game Guild</span>
+                </span>
+                <span class="aligned-title-row">
+                  <span class="aligned-title-label">TO</span>
+                  <span>Web2.5 Community Hub</span>
+                </span>
+              </h2>
+            </div>
+          </div>
+
+          <div class="about-layout">
+            <figure class="about-visual reveal">
+              <img
+                src="./assets/about/about-main.png"
+                alt="CCGG 멤버들이 함께 활동하는 커뮤니티"
+                loading="lazy"
+              />
+            </figure>
+            <div class="about-copy reveal">
+              <p class="large-copy">
+                우리는 단순히 정보를 공유하는 데서 멈추지 않습니다.<br />
+                <strong>함께 경험하고, 검증하고, 성장하는 네트워크</strong>를 만듭니다.
+              </p>
+              <div class="metric-grid" aria-label="CCGG 주요 지표">
+                <article>
+                  <strong
+                    class="slot-value"
+                    data-slot-value="2021"
+                    aria-label="2021"
+                  >2021</strong>
+                  <span>Community founded</span>
+                </article>
+                <article>
+                  <strong
+                    class="slot-value"
+                    data-slot-value="200+"
+                    aria-label="200+"
+                  >200+</strong>
+                  <span>Events completed</span>
+                </article>
+                <article>
+                  <strong
+                    class="slot-value"
+                    data-slot-value="100+"
+                    aria-label="100+"
+                  >100+</strong>
+                  <span>Projects reviewed</span>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section values-section" id="values">
+        <div class="container">
+          <div class="section-kicker reveal">
+            <p class="eyebrow"><span></span> Core Values</p>
+          </div>
+
+          <div class="card-grid values-grid">
+            <article class="value-card reveal">
+              <div class="value-media">
+                <img
+                  src="./assets/values/play-together.png"
+                  alt=""
+                  loading="lazy"
+                />
+              </div>
+              <div class="value-content">
+                <h3>Play Together</h3>
+                <p>신규 프로젝트를 발굴하고 함께 경험합니다.</p>
+              </div>
+            </article>
+            <article class="value-card reveal">
+              <div class="value-media">
+                <img
+                  src="./assets/values/learn-together.png"
+                  alt=""
+                  loading="lazy"
+                />
+              </div>
+              <div class="value-content">
+                <h3>Learn Together</h3>
+                <p>경험을 통해 학습된 인사이트를 공유합니다.</p>
+              </div>
+            </article>
+            <article class="value-card reveal">
+              <div class="value-media">
+                <img
+                  src="./assets/values/build-together.png"
+                  alt=""
+                  loading="lazy"
+                />
+              </div>
+              <div class="value-content">
+                <h3>Build Together</h3>
+                <p>프로젝트 팀과 커뮤니티 간의 지속 가능한 네트워크를 구축합니다.</p>
+              </div>
+            </article>
+            <article class="value-card reveal">
+              <div class="value-media">
+                <img
+                  src="./assets/values/grow-together.png"
+                  alt=""
+                  loading="lazy"
+                />
+              </div>
+              <div class="value-content">
+                <h3>Grow Together</h3>
+                <p>
+                  프로젝트 팀과 커뮤니티가 함께 성장할 수 있는 참여 구조를
+                  기획합니다.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <p class="values-caption reveal">Why Our Community Lasts.</p>
+        </div>
+      </section>
+
+      <section class="section activities-section" id="activities">
+        <div class="activities-backdrop" aria-hidden="true"></div>
+        <div class="container activities-content">
+          <div class="section-heading section-heading-single compact reveal">
+            <div>
+              <p class="eyebrow"><span></span> Activities</p>
+              <h2 class="activities-title">
+                We are a collective of <em>real players</em>
+              </h2>
+            </div>
+          </div>
+
+          <div class="activity-list">
+            <article class="activity-item reveal">
+              <span>01</span><h3>Community Gaming</h3>
+              <p>P2E · GameFi 길드 운영과 플레이 기반 UX 검증</p>
+            </article>
+            <article class="activity-item reveal">
+              <span>02</span><h3>Research &amp; Discovery</h3>
+              <p>신규 프로젝트 모니터링과 커뮤니티 관점의 리서치</p>
+            </article>
+            <article class="activity-item reveal">
+              <span>03</span><h3>Campaign &amp; Marketing</h3>
+              <p>AMA, 미션, 래플 등 참여형 커뮤니티 캠페인 운영</p>
+            </article>
+            <article class="activity-item reveal">
+              <span>04</span><h3>Community Building</h3>
+              <p>멤버 온보딩과 지속 가능한 참여 환경 설계</p>
+            </article>
+            <article class="activity-item reveal">
+              <span>05</span><h3>On-Off Community</h3>
+              <p>온라인 활동을 오프라인 네트워킹과 관계로 확장</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section programs-section" id="programs">
+        <div class="container">
+          <div class="section-heading section-heading-single compact reveal">
+            <div>
+              <p class="eyebrow"><span></span> Programs</p>
+              <h2>Web2.5 experiences</h2>
+            </div>
+          </div>
+
+          <div class="program-grid">
+            <article
+              class="program-card reveal"
+              role="button"
+              tabindex="0"
+              aria-haspopup="dialog"
+              aria-label="Crypto Mink NFT 확대 보기"
+              data-program-card
+            >
+              <img
+                src="./assets/programs/crypto-mink-nft.png"
+                alt=""
+                loading="lazy"
+              />
+              <div class="program-overlay" aria-hidden="true"></div>
+              <div class="program-content">
+                <span class="program-tag">NFT Membership</span>
+                <h3>Crypto Mink NFT</h3>
+                <p>
+                  우리의 멤버십 NFT Crypto Mink는 CCGG 길드원임을 증빙하는 PFP
+                  NFT로서, 정기적인 홀더 전용 이벤트를 진행합니다.
+                </p>
+              </div>
+            </article>
+            <article
+              class="program-card reveal"
+              role="button"
+              tabindex="0"
+              aria-haspopup="dialog"
+              aria-label="Game Guild 확대 보기"
+              data-program-card
+            >
+              <img
+                src="./assets/programs/game-guild.png"
+                alt=""
+                loading="lazy"
+              />
+              <div class="program-overlay" aria-hidden="true"></div>
+              <div class="program-content">
+                <span class="program-tag">Game Guild</span>
+                <h3>Game Guild</h3>
+                <p>
+                  우리는 하나의 커뮤니티이지만, 다수의 게임 세계관 속에서 길드
+                  활동을 해왔습니다.
+                </p>
+              </div>
+            </article>
+            <article
+              class="program-card reveal"
+              role="button"
+              tabindex="0"
+              aria-haspopup="dialog"
+              aria-label="NFT Mining 확대 보기"
+              data-program-card
+            >
+              <img
+                src="./assets/programs/nft-mining.png"
+                alt=""
+                loading="lazy"
+              />
+              <div class="program-overlay" aria-hidden="true"></div>
+              <div class="program-content">
+                <span class="program-tag">X2E Access</span>
+                <h3>NFT Mining</h3>
+                <p>
+                  우리는 P2E, M2E, C2E를 비롯한 X2E 프로젝트 재단과 협업하여 초기
+                  참여권을 획득합니다.
+                </p>
+              </div>
+            </article>
+            <article
+              class="program-card reveal"
+              role="button"
+              tabindex="0"
+              aria-haspopup="dialog"
+              aria-label="Metaverse Onboarding 확대 보기"
+              data-program-card
+            >
+              <img
+                src="./assets/programs/metaverse-onboarding.png"
+                alt=""
+                loading="lazy"
+              />
+              <div class="program-overlay" aria-hidden="true"></div>
+              <div class="program-content">
+                <span class="program-tag">Virtual Identity</span>
+                <h3>Metaverse Onboarding</h3>
+                <p>
+                  우리는 현실에 존재하는 커뮤니티이지만, 가상현실의 자아까지 함께
+                  공유합니다.
+                </p>
+              </div>
+            </article>
+            <article
+              class="program-card reveal"
+              role="button"
+              tabindex="0"
+              aria-haspopup="dialog"
+              aria-label="AMBASSADOR 확대 보기"
+              data-program-card
+            >
+              <img
+                src="./assets/programs/ambassador.png"
+                alt=""
+                loading="lazy"
+              />
+              <div class="program-overlay" aria-hidden="true"></div>
+              <div class="program-content">
+                <span class="program-tag">Creator Network</span>
+                <h3>AMBASSADOR</h3>
+                <p>
+                  우리는 여러 크립토 KOL들과 연결되어 있으며, 프로젝트 마케팅을
+                  함께 합니다.
+                </p>
+              </div>
+            </article>
+            <article
+              class="program-card reveal"
+              role="button"
+              tabindex="0"
+              aria-haspopup="dialog"
+              aria-label="ON and OFF 확대 보기"
+              data-program-card
+            >
+              <img
+                src="./assets/programs/on-and-off.png"
+                alt=""
+                loading="lazy"
+              />
+              <div class="program-overlay" aria-hidden="true"></div>
+              <div class="program-content">
+                <span class="program-tag">Community Network</span>
+                <h3>ON and OFF</h3>
+                <p>
+                  우리는 온라인 커뮤니티를 넘어 오프라인에서 실제 작동하는
+                  네트워크입니다.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <dialog
+            class="program-dialog"
+            id="program-dialog"
+            aria-labelledby="program-dialog-title"
+          >
+            <button
+              class="program-dialog-close"
+              type="button"
+              aria-label="확대 화면 닫기"
+            >
+              ×
+            </button>
+            <div class="program-dialog-grid">
+              <img class="program-dialog-image" src="" alt="" />
+              <div class="program-dialog-copy">
+                <span class="program-tag" id="program-dialog-tag"></span>
+                <h2 id="program-dialog-title"></h2>
+                <p id="program-dialog-description"></p>
+              </div>
+            </div>
+          </dialog>
+        </div>
+      </section>
+
+      <section class="section partners-section" id="partners">
+        <div class="container">
+          <div class="section-heading section-heading-single reveal">
+            <div>
+              <p class="eyebrow"><span></span> Partners</p>
+              <h2 class="aligned-title partners-title">
+                <span class="aligned-title-row">
+                  <span class="aligned-title-label">One</span>
+                  <span>network</span>
+                </span>
+                <span class="aligned-title-row">
+                  <span class="aligned-title-label">More</span>
+                  <span>possibilities</span>
+                </span>
+              </h2>
+            </div>
+          </div>
+
+          <div class="partners-layout">
+            <figure
+              class="partners-visual reveal"
+              role="button"
+              tabindex="0"
+              aria-haspopup="dialog"
+              aria-label="CCGG 파트너 연결 구조 이미지 확대 보기"
+              data-partner-visual
+            >
+              <img
+                src="./assets/partners/partners.png"
+                alt="CCGG와 프로젝트 파트너의 연결 구조"
+                loading="lazy"
+              />
+            </figure>
+            <div class="partners-side reveal">
+              <p class="partners-lead">
+                프로젝트와 커뮤니티, 크리에이터가 함께 성장하는 연결 구조를 만듭니다.
+              </p>
+              <ul class="partner-capabilities" aria-label="CCGG 협업 범위">
+                <li>마케팅 협업</li>
+                <li>기획 정책 참여</li>
+                <li>콘텐츠 제작 및 배포</li>
+                <li>커뮤니티 설계 및 운영</li>
+                <li>콜라보 이벤트 진행</li>
+              </ul>
+              <a class="button button-primary" href="#contact">
+                Partnership Inquiry
+              </a>
+            </div>
+          </div>
+
+          <dialog
+            class="asset-dialog"
+            id="partner-dialog"
+            aria-label="CCGG 파트너 연결 구조 확대 이미지"
+          >
+            <button
+              class="asset-dialog-close"
+              type="button"
+              aria-label="파트너 이미지 확대 화면 닫기"
+            >
+              ×
+            </button>
+            <img
+              src="./assets/partners/partners.png"
+              alt="CCGG와 프로젝트 파트너의 연결 구조 확대 이미지"
+            />
+          </dialog>
+        </div>
+      </section>
+
+      <section class="section history-section" id="history">
+        <div class="history-backdrop" aria-hidden="true"></div>
+        <div class="container history-content">
+          <div class="section-kicker reveal">
+            <p class="eyebrow"><span></span> History</p>
+            <p>From Play to Ownership.</p>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <time>2021</time><span></span>
+              <div>
+                <h3>The Beginning</h3>
+                <p>P2E와 GameFi 커뮤니티 기반 길드 활동 시작</p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <time>2022</time><span></span>
+              <div>
+                <h3>Guild Expansion</h3>
+                <p>다양한 P2E, NFT, Web3 프로젝트로 활동 확장</p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <time>2023</time><span></span>
+              <div>
+                <h3>NFT &amp; Community</h3>
+                <p>Crypto Mink NFT 멤버십 기반 실험 구체화</p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <time>2024</time><span></span>
+              <div>
+                <h3>Beyond Gaming</h3>
+                <p>NFT, Metaverse, Web3 생태계 전반으로 확장</p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <time>2025</time><span></span>
+              <div>
+                <h3>Community &amp; RWA</h3>
+                <p>온·오프라인 실물 자산 기반 경험 탐색</p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <time>2026</time><span></span>
+              <div>
+                <h3>Future</h3>
+                <p>AI와 Digital Ownership 중심의 협업 모델 실험</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <div class="contact-panel reveal">
+            <p class="eyebrow"><span></span> Contact</p>
+            <h2>Let’s build the next<br /><em>community chapter.</em></h2>
+            <p>
+              협업, 캠페인, 커뮤니티 온보딩, KOL 활동을 제안해 주세요.<br />
+              프로젝트와 커뮤니티가 함께 성장하는 방식을 열어두고 있습니다.
+            </p>
+
+            <svg class="platform-symbols" aria-hidden="true">
+              <symbol id="icon-linktree" viewBox="0 0 24 24">
+                <path
+                  d="M12 2.2 8.8 6.5h2.1L7.4 10h3.1v3.2H8.2l3.8 4 3.8-4h-2.3V10h3.1l-3.5-3.5h2.1L12 2.2Zm-1.3 15.7h2.6V22h-2.6v-4.1Z"
+                />
+              </symbol>
+              <symbol id="icon-telegram" viewBox="0 0 24 24">
+                <path
+                  d="m21.4 4.1-3 14.2c-.2 1-1 1.2-1.8.8L12 15.7l-2.2 2.1c-.2.2-.4.4-.9.4l.3-4.7 8.6-7.8c.4-.3-.1-.5-.6-.2L6.6 12.2 2 10.7c-1-.3-1-1 .2-1.5l17.9-6.9c.8-.3 1.6.2 1.3 1.8Z"
+                />
+              </symbol>
+              <symbol id="icon-gitbook" viewBox="0 0 24 24">
+                <path
+                  d="M4 3.5h6.2c1.1 0 1.8.4 2.3 1 .5-.6 1.2-1 2.3-1H21v15.3h-6.2c-1 0-1.6.3-2.3.9-.7-.6-1.3-.9-2.3-.9H4V3.5Zm2 2v11.3h4.2c.5 0 .9.1 1.3.3V6.4c-.3-.6-.7-.9-1.3-.9H6Zm9.8 0c-.6 0-1 .3-1.3.9v10.7c.4-.2.8-.3 1.3-.3H19V5.5h-3.2Z"
+                />
+              </symbol>
+              <symbol id="icon-x" viewBox="0 0 24 24">
+                <path
+                  d="M18.9 3H22l-6.8 7.8L23.2 21H17l-4.9-6.4L6.5 21H3.4l7.3-8.4L3 3h6.4l4.4 5.8L18.9 3Zm-1.1 16h1.7L8.5 4.9H6.7L17.8 19Z"
+                />
+              </symbol>
+              <symbol id="icon-youtube" viewBox="0 0 24 24">
+                <path
+                  d="M22.5 7.2a2.8 2.8 0 0 0-2-2C18.8 4.7 12 4.7 12 4.7s-6.8 0-8.5.5a2.8 2.8 0 0 0-2 2A29 29 0 0 0 1 12a29 29 0 0 0 .5 4.8 2.8 2.8 0 0 0 2 2c1.7.5 8.5.5 8.5.5s6.8 0 8.5-.5a2.8 2.8 0 0 0 2-2A29 29 0 0 0 23 12a29 29 0 0 0-.5-4.8ZM9.8 15.4V8.6l5.9 3.4-5.9 3.4Z"
+                />
+              </symbol>
+              <symbol id="icon-naver" viewBox="0 0 24 24">
+                <path d="M4 3h5.4l5.2 7.6V3H20v18h-5.4l-5.2-7.6V21H4V3Z" />
+              </symbol>
+              <symbol id="icon-play" viewBox="0 0 24 24">
+                <path
+                  d="M4.4 3.2c-.3.4-.4.9-.4 1.5v14.6c0 .6.1 1.1.4 1.5l8-8.8-8-8.8Zm9.4 7.2 2.6-2.9L7 2.2l6.8 8.2Zm0 3.2L7 21.8l9.4-5.3-2.6-2.9Zm1.5-1.6 2.7 3 1.8-1c1.6-.9 1.6-2.2 0-3.1l-1.8-1-2.7 3.1Z"
+                />
+              </symbol>
+              <symbol id="icon-discord" viewBox="0 0 24 24">
+                <path
+                  d="M19.8 5.3A18 18 0 0 0 15.4 4l-.5 1a16.6 16.6 0 0 0-5.8 0l-.5-1a18 18 0 0 0-4.4 1.3C1.4 9.5.6 13.6 1 17.7a17.7 17.7 0 0 0 5.4 2.7l1.3-1.8-1.7-.8.4-.3a12.6 12.6 0 0 0 11.2 0l.4.3-1.7.8 1.3 1.8a17.7 17.7 0 0 0 5.4-2.7c.5-4.8-.8-8.8-3.2-12.4ZM8.4 15.2c-1.1 0-2-1-2-2.2s.9-2.2 2-2.2 2 1 2 2.2-.9 2.2-2 2.2Zm7.2 0c-1.1 0-2-1-2-2.2s.9-2.2 2-2.2 2 1 2 2.2-.9 2.2-2 2.2Z"
+                />
+              </symbol>
+              <symbol id="icon-kakao" viewBox="0 0 24 24">
+                <path
+                  d="M12 3C6.5 3 2 6.5 2 10.8c0 2.8 1.9 5.3 4.7 6.7L5.5 22l5-3.4c.5.1 1 .1 1.5.1 5.5 0 10-3.5 10-7.9S17.5 3 12 3Z"
+                />
+              </symbol>
+            </svg>
+
+            <div class="button-row contact-actions">
+              <a
+                class="button button-primary button-large"
+                href="https://linktr.ee/ccgguild"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="platform-icon" aria-hidden="true">
+                  <use href="#icon-linktree"></use>
+                </svg>
+                CCGG Linktree <span>↗</span>
+              </a>
+              <a
+                class="button button-telegram button-large"
+                href="https://t.me/bbbentaco"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="platform-icon" aria-hidden="true">
+                  <use href="#icon-telegram"></use>
+                </svg>
+                Admin DM <span>↗</span>
+              </a>
+            </div>
+
+            <div class="channel-directory">
+              <div class="channel-group">
+                <div class="channel-heading">
+                  <span>Official Channels</span>
+                </div>
+                <div class="channel-grid">
+                  <a
+                    class="channel-link"
+                    href="https://bentaco.gitbook.io/ccgguild/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg class="platform-icon" aria-hidden="true">
+                      <use href="#icon-gitbook"></use>
+                    </svg>
+                    <span><strong>CCGG Intro</strong></span>
+                    <i aria-hidden="true">↗</i>
+                  </a>
+                  <a
+                    class="channel-link"
+                    href="https://t.me/ccgguild"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg class="platform-icon" aria-hidden="true">
+                      <use href="#icon-telegram"></use>
+                    </svg>
+                    <span><strong>Telegram</strong></span>
+                    <i aria-hidden="true">↗</i>
+                  </a>
+                  <a
+                    class="channel-link"
+                    href="https://twitter.com/ccgguild"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg class="platform-icon" aria-hidden="true">
+                      <use href="#icon-x"></use>
+                    </svg>
+                    <span><strong>X</strong></span>
+                    <i aria-hidden="true">↗</i>
+                  </a>
+                  <a
+                    class="channel-link"
+                    href="https://www.youtube.com/@ccgg-guild/shorts"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg class="platform-icon" aria-hidden="true">
+                      <use href="#icon-youtube"></use>
+                    </svg>
+                    <span><strong>YouTube</strong></span>
+                    <i aria-hidden="true">↗</i>
+                  </a>
+                  <a
+                    class="channel-link"
+                    href="https://blog.naver.com/PostList.naver?blogId=bentaco&amp;categoryNo=16&amp;from=postList"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg class="platform-icon" aria-hidden="true">
+                      <use href="#icon-naver"></use>
+                    </svg>
+                    <span><strong>Naver Blog</strong></span>
+                    <i aria-hidden="true">↗</i>
+                  </a>
+                  <a
+                    class="channel-link"
+                    href="https://play.google.com/store/apps/details?hl=uz&amp;id=com.CCGGCompany.CCGGFarm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg class="platform-icon" aria-hidden="true">
+                      <use href="#icon-play"></use>
+                    </svg>
+                    <span><strong>CCGGPLAY</strong></span>
+                    <i aria-hidden="true">↗</i>
+                  </a>
+                  <a
+                    class="channel-link"
+                    href="https://discord.com/invite/FBgWNGBAd2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg class="platform-icon" aria-hidden="true">
+                      <use href="#icon-discord"></use>
+                    </svg>
+                    <span><strong>Discord</strong></span>
+                    <i aria-hidden="true">↗</i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="channel-group">
+                <div class="channel-heading">
+                  <span>Community Channels</span>
+                </div>
+                <div class="channel-grid channel-grid-community">
+                  <a
+                    class="channel-link"
+                    href="https://open.kakao.com/o/gAOhhU9d"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg class="platform-icon" aria-hidden="true">
+                      <use href="#icon-kakao"></use>
+                    </svg>
+                    <span><strong>CCGG Main Chat</strong></span>
+                    <i aria-hidden="true">↗</i>
+                  </a>
+                  <a
+                    class="channel-link"
+                    href="https://open.kakao.com/o/gtfy21Td"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg class="platform-icon" aria-hidden="true">
+                      <use href="#icon-kakao"></use>
+                    </svg>
+                    <span><strong>OMC Holder</strong></span>
+                    <i aria-hidden="true">↗</i>
+                  </a>
+                  <a
+                    class="channel-link"
+                    href="https://open.kakao.com/o/g8Llep6d"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg class="platform-icon" aria-hidden="true">
+                      <use href="#icon-kakao"></use>
+                    </svg>
+                    <span><strong>XPLA Holder</strong></span>
+                    <i aria-hidden="true">↗</i>
+                  </a>
+                  <a
+                    class="channel-link"
+                    href="https://open.kakao.com/o/gB1NMJ1g"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg class="platform-icon" aria-hidden="true">
+                      <use href="#icon-kakao"></use>
+                    </svg>
+                    <span><strong>MapleStory N</strong></span>
+                    <i aria-hidden="true">↗</i>
+                  </a>
+                  <a
+                    class="channel-link"
+                    href="https://open.kakao.com/o/goAnBPBd"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg class="platform-icon" aria-hidden="true">
+                      <use href="#icon-kakao"></use>
+                    </svg>
+                    <span><strong>Referral Share</strong></span>
+                    <i aria-hidden="true">↗</i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="admin-email">
+              <span>Admin E-mail</span>
+              <a href="mailto:bbbentaco@gmail.com">bbbentaco@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#home">
+            <img
+              class="brand-logo"
+              src="assets/ccgg-logo-transparent.png"
+              width="34"
+              height="34"
+              alt=""
+              aria-hidden="true"
+            />
+            <span>CCGG</span>
+          </a>
+          <p>
+            Web2와 Web3의 전환점에서 함께 경험하고 확장하는 커뮤니티.
+          </p>
+        </div>
+        <div class="footer-column">
+          <h2>Explore</h2>
+          <a href="#about">About</a>
+          <a href="#activities">Activities</a>
+          <a href="#programs">Programs</a>
+        </div>
+        <div class="footer-column">
+          <h2>Network</h2>
+          <a href="#partners">Partners</a>
+          <a href="#history">History</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-column">
+          <h2>Official</h2>
+          <a
+            href="https://bentaco.gitbook.io/ccgguild"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitBook ↗
+          </a>
+          <a
+            href="https://linktr.ee/ccgguild"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Linktree ↗
+          </a>
+          <a
+            href="https://t.me/bbbentaco"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Founder DM ↗
+          </a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="current-year">2026</span> CCGG. All rights reserved.</span>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
